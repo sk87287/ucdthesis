@@ -1,0 +1,16 @@
+[0] Config.pm:300> INFO - This is Biber 0.9.8
+[0] Config.pm:303> INFO - Logfile is 'main.blg'
+[0] biber:134> INFO - === Wed Oct 23, 2013, 09:40:50
+[0] Biber.pm:271> INFO - Reading 'main.bcf'
+[7] Biber.pm:586> INFO - Found 13 citekeys in bib section 0
+[12] Biber.pm:2583> INFO - Processing bib section 0
+[20] Biber.pm:2675> INFO - Looking for bibtex format file 'main.bib' for section 0
+[41] bibtex.pm:819> INFO - Decoding LaTeX character macros into UTF-8
+[48] bibtex.pm:823> INFO - Finished Decoding LaTeX character macros into UTF-8
+[49] bibtex.pm:689> INFO - Found BibTeX data source 'main.bib'
+[104] Biber.pm:2478> INFO - Sorting list 'MAIN' keys
+[104] Biber.pm:2482> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[117] Biber.pm:2478> INFO - Sorting list 'SHORTHANDS' keys
+[118] Biber.pm:2482> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[128] bbl.pm:427> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[129] bbl.pm:498> INFO - Output to main.bbl

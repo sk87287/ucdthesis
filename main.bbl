@@ -1,0 +1,348 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 1.7 $
+% $ biber version 0.9.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber or bibtex as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \entry{Beresford:2011:MTP:2184489.2184500}{inproceedings}{}
+    \name{labelname}{4}{}{%
+      {{hash=c88dc891954f7fceb9e838d95e497fbf}{Beresford}{B\bibinitperiod}{Alastair\bibnamedelima R.}{A\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      {{hash=92a31df86414c26b97119928ca3b028b}{Rice}{R\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=289a74f06a43e7a37c666ffb509858b6}{Skehin}{S\bibinitperiod}{Nicholas}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=c85e5b05330c4f92d713a1fc24623a2b}{Sohan}{S\bibinitperiod}{Ripduman}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{4}{}{%
+      {{hash=c88dc891954f7fceb9e838d95e497fbf}{Beresford}{B\bibinitperiod}{Alastair\bibnamedelima R.}{A\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      {{hash=92a31df86414c26b97119928ca3b028b}{Rice}{R\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=289a74f06a43e7a37c666ffb509858b6}{Skehin}{S\bibinitperiod}{Nicholas}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=c85e5b05330c4f92d713a1fc24623a2b}{Sohan}{S\bibinitperiod}{Ripduman}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{5c06dbab07f0686cb966866d0edb0e2c}
+    \strng{fullhash}{5c06dbab07f0686cb966866d0edb0e2c}
+    \field{sortinit}{B}
+    \field{booktitle}{Proceedings of the 12th Workshop on Mobile Computing Systems and Applications}
+    \field{isbn}{978-1-4503-0649-2}
+    \field{series}{HotMobile '11}
+    \field{title}{MockDroid: trading privacy for application functionality on smartphones}
+    \field{year}{2011}
+    \field{pages}{49\bibrangedash 54}
+    \verb{doi}
+    \verb 10.1145/2184489.2184500
+    \endverb
+    \verb{url}
+    \verb http://doi.acm.org/10.1145/2184489.2184500
+    \endverb
+    \keyw{Android, MockDroid, mobile, phone, privacy}
+  \endentry
+
+  \entry{Davis:2013:RetroSkeleton}{inproceedings}{}
+    \name{labelname}{2}{}{%
+      {{hash=48b170450aa83a494b508932b522a4f4}{Davis}{D\bibinitperiod}{Benjamin}{B\bibinitperiod}{}{}{}{}}%
+      {{hash=dd060cd064f8f607eb1bee6712820270}{Chen}{C\bibinitperiod}{Hao}{H\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{2}{}{%
+      {{hash=48b170450aa83a494b508932b522a4f4}{Davis}{D\bibinitperiod}{Benjamin}{B\bibinitperiod}{}{}{}{}}%
+      {{hash=dd060cd064f8f607eb1bee6712820270}{Chen}{C\bibinitperiod}{Hao}{H\bibinitperiod}{}{}{}{}}%
+    }
+    \list{location}{1}{%
+      {Taipei, Taiwan}%
+    }
+    \strng{namehash}{2118d1e86ed6ae9f601c7c6e5eb797c5}
+    \strng{fullhash}{2118d1e86ed6ae9f601c7c6e5eb797c5}
+    \field{sortinit}{D}
+    \field{booktitle}{The 11th International Conference on Mobile Systems, Applications and Services (Mobisys)}
+    \field{day}{25}
+    \field{endday}{28}
+    \field{endmonth}{06}
+    \field{endyear}{2013}
+    \field{month}{06}
+    \field{title}{RetroSkeleton: Retrofitting Android Apps}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Demers}{online}{}
+    \name{labelname}{1}{}{%
+      {{hash=58e8e6a2a99a99971cd10a72c22dfc1a}{Demers}{D\bibinitperiod}{Matt}{M\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=58e8e6a2a99a99971cd10a72c22dfc1a}{Demers}{D\bibinitperiod}{Matt}{M\bibinitperiod}{}{}{}{}}%
+    }
+    \list{organization}{1}{%
+      {Anroid Police}%
+    }
+    \strng{namehash}{58e8e6a2a99a99971cd10a72c22dfc1a}
+    \strng{fullhash}{58e8e6a2a99a99971cd10a72c22dfc1a}
+    \field{sortinit}{D}
+    \field{day}{25}
+    \field{month}{05}
+    \field{title}{CyanogenMod Adds Support For Revoking App Permissions}
+    \field{year}{2011}
+    \verb{url}
+    \verb http://www.androidpolice.com/2011/05/22/cyanogenmod-adds-support-for-revoking-and-faking-app-permissions/
+    \endverb
+  \endentry
+
+  \entry{Felt}{inproceedings}{}
+    \name{labelname}{1}{}{%
+      {{hash=67cc22faedfb4ad15466b3120bae64b1}{Felt}{F\bibinitperiod}{Adrienne\bibnamedelima Porter}{A\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=67cc22faedfb4ad15466b3120bae64b1}{Felt}{F\bibinitperiod}{Adrienne\bibnamedelima Porter}{A\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{67cc22faedfb4ad15466b3120bae64b1}
+    \strng{fullhash}{67cc22faedfb4ad15466b3120bae64b1}
+    \field{sortinit}{F}
+    \field{booktitle}{18th ACM conference on Computer and communications security}
+    \field{title}{Android permissions demystified}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Google}{online}{}
+    \name{labelname}{1}{}{%
+      {{hash=8b36e9207c24c76e6719268e49201d94}{Google}{G\bibinitperiod}{}{}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=8b36e9207c24c76e6719268e49201d94}{Google}{G\bibinitperiod}{}{}{}{}{}{}}%
+    }
+    \list{organization}{1}{%
+      {Google}%
+    }
+    \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+    \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+    \field{sortinit}{G}
+    \field{day}{14}
+    \field{month}{04}
+    \field{title}{Permissions|Android Developers}
+    \field{year}{2013}
+    \verb{url}
+    \verb http://developer.android.com/guide/topics/security/permissions.html
+    \endverb
+  \endentry
+
+  \entry{Higgins}{online}{}
+    \name{labelname}{1}{}{%
+      {{hash=badf415767fd5745bd8d685b1b39e67f}{Higgins}{H\bibinitperiod}{K.\bibnamedelimi J.}{K\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=badf415767fd5745bd8d685b1b39e67f}{Higgins}{H\bibinitperiod}{K.\bibnamedelimi J.}{K\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+    }
+    \list{organization}{1}{%
+      {Dark Reading}%
+    }
+    \strng{namehash}{badf415767fd5745bd8d685b1b39e67f}
+    \strng{fullhash}{badf415767fd5745bd8d685b1b39e67f}
+    \field{sortinit}{H}
+    \field{day}{01}
+    \field{month}{11}
+    \field{title}{More Than 25\% Of Android Apps Know Too Much About You}
+    \field{year}{2012}
+    \verb{url}
+    \verb http://www.darkreading.com/mobile-security/167901113/security/privacy/240012705/more-than-25-of-android-apps-know-too-much-about-you.html
+    \endverb
+  \endentry
+
+  \entry{Hoffman}{online}{}
+    \name{labelname}{1}{}{%
+      {{hash=42b1a7c5d1b0e5635cc43fbd3a36ffe1}{Hoffman}{H\bibinitperiod}{Chris}{C\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=42b1a7c5d1b0e5635cc43fbd3a36ffe1}{Hoffman}{H\bibinitperiod}{Chris}{C\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{42b1a7c5d1b0e5635cc43fbd3a36ffe1}
+    \strng{fullhash}{42b1a7c5d1b0e5635cc43fbd3a36ffe1}
+    \field{sortinit}{H}
+    \field{day}{14}
+    \field{month}{04}
+    \field{title}{How to Restrict Android App Permissions}
+    \field{year}{2013}
+    \verb{url}
+    \verb http://www.howtogeek.com/115888/how-to-restrict-android-app-permissions/
+    \endverb
+  \endentry
+
+  \entry{Hornyack:2011:TAD:2046707.2046780}{inproceedings}{}
+    \name{labelname}{5}{}{%
+      {{hash=855e0ec6d10a16aa03205edc7c1fc7fb}{Hornyack}{H\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=52a77ede6d17046d614e062d9499101c}{Han}{H\bibinitperiod}{Seungyeop}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=abd232ace1c44dcb3765fc975b9269ea}{Jung}{J\bibinitperiod}{Jaeyeon}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=3bc43971957bec60cc231bc9792c797a}{Schechter}{S\bibinitperiod}{Stuart}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=ed3fc532903c051209e0750c2c89f2ac}{Wetherall}{W\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{5}{}{%
+      {{hash=855e0ec6d10a16aa03205edc7c1fc7fb}{Hornyack}{H\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=52a77ede6d17046d614e062d9499101c}{Han}{H\bibinitperiod}{Seungyeop}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=abd232ace1c44dcb3765fc975b9269ea}{Jung}{J\bibinitperiod}{Jaeyeon}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=3bc43971957bec60cc231bc9792c797a}{Schechter}{S\bibinitperiod}{Stuart}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=ed3fc532903c051209e0750c2c89f2ac}{Wetherall}{W\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+    }
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{1df578447ec34d1bdd4d9479ea63d6f7}
+    \strng{fullhash}{1df578447ec34d1bdd4d9479ea63d6f7}
+    \field{sortinit}{H}
+    \field{booktitle}{Proceedings of the 18th ACM conference on Computer and communications security}
+    \field{isbn}{978-1-4503-0948-6}
+    \field{series}{CCS '11}
+    \field{title}{These aren't the droids you're looking for: retrofitting android to protect data from imperious applications}
+    \field{year}{2011}
+    \field{pages}{639\bibrangedash 652}
+    \verb{doi}
+    \verb 10.1145/2046707.2046780
+    \endverb
+    \verb{url}
+    \verb http://doi.acm.org/10.1145/2046707.2046780
+    \endverb
+    \keyw{android, privacy, smartphone}
+  \endentry
+
+  \entry{Milano}{online}{}
+    \name{labelname}{1}{}{%
+      {{hash=ad9e1bde39c6f729f0c6151c9f0b3538}{Milano}{M\bibinitperiod}{D.\bibnamedelimi T.}{D\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=ad9e1bde39c6f729f0c6151c9f0b3538}{Milano}{M\bibinitperiod}{D.\bibnamedelimi T.}{D\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{ad9e1bde39c6f729f0c6151c9f0b3538}
+    \strng{fullhash}{ad9e1bde39c6f729f0c6151c9f0b3538}
+    \field{sortinit}{M}
+    \field{day}{14}
+    \field{month}{04}
+    \field{title}{Android ViewClient}
+    \field{year}{2013}
+    \verb{url}
+    \verb https://github.com/dtmilano/AndroidViewClient
+    \endverb
+  \endentry
+
+  \entry{Perez}{online}{}
+    \name{labelname}{1}{}{%
+      {{hash=c73f8a3870414ddb9e550c08bc0a2332}{Perez}{P\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=c73f8a3870414ddb9e550c08bc0a2332}{Perez}{P\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+    }
+    \list{organization}{1}{%
+      {Tech Crunch}%
+    }
+    \strng{namehash}{c73f8a3870414ddb9e550c08bc0a2332}
+    \strng{fullhash}{c73f8a3870414ddb9e550c08bc0a2332}
+    \field{sortinit}{P}
+    \field{day}{02}
+    \field{month}{11}
+    \field{title}{IDC: Android Market Share Reached 75\% Worldwide In Q3 2012}
+    \field{year}{2012}
+    \verb{url}
+    \verb http://techcrunch.com/2012/11/02/idc-android-market-share-reached-75-worldwide-in-q3-2012
+    \endverb
+  \endentry
+
+  \entry{Rastogi:2013:AAS:2435349.2435379}{inproceedings}{}
+    \name{labelname}{3}{}{%
+      {{hash=303e76e53fcbf8fa8d0f339cb34aedb7}{Rastogi}{R\bibinitperiod}{Vaibhav}{V\bibinitperiod}{}{}{}{}}%
+      {{hash=b6f25c2ea695f4385f6acab832194dfc}{Chen}{C\bibinitperiod}{Yan}{Y\bibinitperiod}{}{}{}{}}%
+      {{hash=723230c856c5e4798ec2a9edfa54406e}{Enck}{E\bibinitperiod}{William}{W\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{3}{}{%
+      {{hash=303e76e53fcbf8fa8d0f339cb34aedb7}{Rastogi}{R\bibinitperiod}{Vaibhav}{V\bibinitperiod}{}{}{}{}}%
+      {{hash=b6f25c2ea695f4385f6acab832194dfc}{Chen}{C\bibinitperiod}{Yan}{Y\bibinitperiod}{}{}{}{}}%
+      {{hash=723230c856c5e4798ec2a9edfa54406e}{Enck}{E\bibinitperiod}{William}{W\bibinitperiod}{}{}{}{}}%
+    }
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{8cee9de3907deac08fb2ebaa65785bc2}
+    \strng{fullhash}{8cee9de3907deac08fb2ebaa65785bc2}
+    \field{sortinit}{R}
+    \field{booktitle}{Proceedings of the third ACM conference on Data and application security and privacy}
+    \field{isbn}{978-1-4503-1890-7}
+    \field{series}{CODASPY '13}
+    \field{title}{AppsPlayground: automatic security analysis of smartphone applications}
+    \field{year}{2013}
+    \field{pages}{209\bibrangedash 220}
+    \verb{doi}
+    \verb 10.1145/2435349.2435379
+    \endverb
+    \verb{url}
+    \verb http://doi.acm.org/10.1145/2435349.2435379
+    \endverb
+    \keyw{android, dynamic analysis, malware, privacy leakage}
+  \endentry
+
+  \entry{Womack}{online}{}
+    \name{labelname}{1}{}{%
+      {{hash=922f1ce8e0c2140781f980434b10dd9d}{Womack}{W\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=922f1ce8e0c2140781f980434b10dd9d}{Womack}{W\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+    }
+    \list{organization}{1}{%
+      {Bloomberg Businessweek}%
+    }
+    \strng{namehash}{922f1ce8e0c2140781f980434b10dd9d}
+    \strng{fullhash}{922f1ce8e0c2140781f980434b10dd9d}
+    \field{sortinit}{W}
+    \field{day}{29}
+    \field{month}{10}
+    \field{title}{Google Says 700,000 Applications Available for Android}
+    \field{year}{2012}
+    \verb{url}
+    \verb http://www.businessweek.com/news/2012-10-29/google-says-700-000-applications-available-for-android-devices
+    \endverb
+  \endentry
+
+  \entry{Zhou:2011:TISSA}{inproceedings}{}
+    \name{labelname}{4}{}{%
+      {{hash=fdf4df45ac31656265c83a3cebaa9fd4}{Zhou}{Z\bibinitperiod}{Yajin}{Y\bibinitperiod}{}{}{}{}}%
+      {{hash=89089f8361ecd0f3a87417ac2224fe5a}{Zhang}{Z\bibinitperiod}{Xinwen}{X\bibinitperiod}{}{}{}{}}%
+      {{hash=ce10d9e316c2d22a46ebfa423c4e7bbe}{Jiang}{J\bibinitperiod}{Xuxian}{X\bibinitperiod}{}{}{}{}}%
+      {{hash=db1eb836d4c7dc144609a37e602f75b9}{Freeh}{F\bibinitperiod}{Vince\bibnamedelima W.}{V\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{4}{}{%
+      {{hash=fdf4df45ac31656265c83a3cebaa9fd4}{Zhou}{Z\bibinitperiod}{Yajin}{Y\bibinitperiod}{}{}{}{}}%
+      {{hash=89089f8361ecd0f3a87417ac2224fe5a}{Zhang}{Z\bibinitperiod}{Xinwen}{X\bibinitperiod}{}{}{}{}}%
+      {{hash=ce10d9e316c2d22a46ebfa423c4e7bbe}{Jiang}{J\bibinitperiod}{Xuxian}{X\bibinitperiod}{}{}{}{}}%
+      {{hash=db1eb836d4c7dc144609a37e602f75b9}{Freeh}{F\bibinitperiod}{Vince\bibnamedelima W.}{V\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+    }
+    \list{location}{1}{%
+      {Pittsburgh, PA}%
+    }
+    \strng{namehash}{df22161cb5890c951e68fee988005095}
+    \strng{fullhash}{df22161cb5890c951e68fee988005095}
+    \field{sortinit}{Z}
+    \field{booktitle}{4th International Conference on Trust and Trustworthy Computing (TRUST 2011)}
+    \field{month}{06}
+    \field{title}{Taming Information-Stealing Smartphone Applications (on Android)}
+    \field{year}{2011}
+  \endentry
+
+\endrefsection
+\endinput
+

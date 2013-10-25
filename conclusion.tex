@@ -1,0 +1,9 @@
+%This is an example for a chapter, additional chapter can be added in the skeleton-thesis
+%To generate the final document run latex, build and quick build commands on the skeleton-thesis file not this one.
+%This is chapter 2, the default skeleton thesis expects 2 chapters
+\chapter{Conclusion}
+\label{sec:conclusion}
+
+\toolname, a system for the automated testing and measurement of the fatal exception behaviors of Android applications when permissions are removed, was developed for this study.  The evaluation shows that not all permissions are equal with there rate of crashes due to permission removal ranging from 0-20\%. Overall, 94\% of the 662 applications that were successfully tested did not crash due to permission removal as evidenced by a lack of \texttt{SecurityExceptions}.  If Google decides to implement user editable permissions, they will have the opportunity to further enhance the user experience by wrapping more sensitive API calls in libraries which handle permission errors gracefully. 
+
+In regards to developers, if they wish to make their applications more robust when requested permissions are unavailable, they should try to use wrapper code that call sensitive APIs and handle exceptions gracefully rather than calling the sensitive APIs directly.  On the other hand, if they wish to restrict functionality unless the requested permissions are available (e.g., \texttt{INTERNET} permission for ad libraries that generate revenue), they should invoke the sensitive APIs directly and prevent the application from continuing until the permission is restored.

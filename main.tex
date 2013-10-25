@@ -1,0 +1,210 @@
+% Root File for a UC Dissertation / Thesis
+% UCD thesis class: c/o Shwaine <shwaine@shwaine.com>
+%
+% modified by Dylan Beaudette, 2006,2010
+% minor edits and source uploaded by Alex Mandel, 2010
+% Source code available at http://github.com/wildintellect/ucdthesis
+\documentclass[12pt,notableslist]{ucdthesis}
+%\documentclass[10pt,twoside,final]{ucdthesis}
+% \documentclass[10pt,twoside,draft]{ucdthesis}
+% \documentclass[10pt,oneside,final]{ucdthesis}
+
+% TODO: this makes strange things happen in the header...
+% this is the version that grad studies wants
+%\documentclass[11pt,oneside,final]{ucdthesis}
+
+% when we are giving people drafts, use more of the page:
+%\usepackage[letterpaper,left=0.75in,right=0.75in,top=1.25in,bottom=0.5in]{geometry}
+%\usepackage[paperwidth=8.5in,paperheight=11.0in,left=1.0in,right=01.0in,includefoot]{geometry}
+% need this for the \foreach command
+\usepackage{tikz}
+
+% Turn on single spacing with \ssp.
+% Turn on double spacing with \dsp.
+% By default, your dissertation is double spaced, as is required by UCD.
+
+% spacing in figures and tables and their captions can be
+% changed here (\ssp for single-space, empty for same as surrounding
+% text); for this to work, the command \figsp has to be included
+% in every figure and table right after the \begin{figure}
+\def\figsp{\ssp}
+\def\figsp{}
+
+
+% useful for drafts
+% line numbers:
+% http://www.ctan.org/tex-archive/help/Catalogue/entries/lineno.html
+%
+% \usepackage{lineno}
+
+%
+% SVN integration
+%
+\usepackage{svn-multi}
+
+% customized headers
+%
+% http://www.ctan.org/tex-archive/help/Catalogue/entries/fancyhdr.html
+\usepackage{fancyhdr}
+
+% a better verbatim environment: c/o Pete Dirac
+% use like this:
+%\begin{Verbatim}[fontsize=8]
+%	foobar
+%\end{Verbatim}
+\usepackage{fancyvrb}
+
+
+% more flexible math support
+\usepackage{amsmath}
+
+% allow some pages to be landscape
+\usepackage{lscape}
+
+% more flexible definition of table environments
+\usepackage{ctable}
+
+%need this for \includegraphics{}
+\usepackage{graphicx}
+
+% TODO: use the new subfig package instead
+% http://www.ctan.org/tex-archive/macros/latex/contrib/subfig/
+%
+%use this to put figures side by side
+\usepackage{subfigure}
+
+ % PDF links --- > breaks with some bibliography entries
+\usepackage{hyperref}
+
+% nice looking, parenthetical references
+\usepackage[backend=biber, maxnames=5]{biblatex}
+\addbibresource{main.bib}
+%\usepackage[round]{natbib}
+
+% fix nasty bug (usthesis + natbib)
+% http://www.isi.edu/~johnh/SOFTWARE/uclathes.html
+\def\newblock{\hskip .11em plus .33em minus .07em}
+
+%make the index
+\usepackage{makeidx}
+\makeindex
+
+% custom colors
+\usepackage{color}
+% make a color for comments
+\definecolor{MyDarkBlue}{rgb}{0,0.08,0.45}
+
+% customized captions with bold label and small, italic text
+% table captions are located above tables
+% http://www.kronto.org/thesis/tips/custom-captions.html
+% http://www.ctan.org/tex-archive/macros/latex/contrib/caption/
+% does this have any effect?
+\usepackage{caption}
+\renewcommand{\captionfont}{\small\itshape}
+%
+% modern method for setting up captions\
+\captionsetup{margin=10pt,font=small,labelfont=bf}
+%
+% fix so that table captions have correct spacing
+\captionsetup[table]{position=top}
+
+
+
+% %
+% %  fit more material on the page:
+% %
+%
+% reset float-controlling parameters
+\renewcommand{\floatpagefraction}{0.8}	% require fuller float pages
+
+% N.B.: floatpagefraction MUST be less than topfraction !!
+\renewcommand{\topfraction}{0.9}	% max fraction of floats at top
+\renewcommand{\bottomfraction}{0.8}	% max fraction of floats at bottom
+\newcommand{\toolname}{Pyandrazzi}
+
+
+
+
+%%% Document Portion:
+\begin{document}
+
+
+%
+%% Title, Front Matter, and Abstract:
+\input{title_and_frontmatter}
+%\setlength{\footskip}{10pt}
+%
+% the chapters
+%
+
+% set page style:
+% make the chapter and section smaller, chapter and section numbers are removed
+% fancyplain will keep the page numbers at the bottom of all pages
+%\pagestyle{fancy} %Note the \fancyplain command !!!
+%\fancyhf{} 
+%\fancyhead[R]{\thepage} 
+%\fancypagestyle{plain}
+%\fancyhf{}
+\pagestyle{plain}
+\pagenumbering{arabic}
+\renewcommand{\chaptermark}[1]{\markboth{\small{#1}}{}}
+\renewcommand{\sectionmark}[1]{\markright{\small{#1}}{}}
+
+
+% TODO: this is only for draft copies !!
+% start line number printing
+%
+%\linenumbers
+
+
+% chapter 1
+\input{introduction}
+
+% chapter 2
+\input{related}
+
+% chapter 3
+\input{design}
+
+% chapter 4
+\input{findings}
+
+% chapter 5
+\input{discussion}
+
+% chapter 6
+\input{limitations}
+
+% chapter 7
+\input{conclusion}
+
+% note that the 'plainnat' style does not allow URL's in the bibtex entry
+%
+% some ideas here:
+% http://bib2web.djvuzone.org/bibtex.html
+%
+
+% reset the page style
+\pagestyle{plain}
+
+\ssp   % bibliography can be single-spaced for UC thesis format
+%\bibliography{skeleton-thesis.bib}
+\printbibliography
+% this format is close enough to SSSA, etc.
+%\bibliographystyle{apalike}
+
+
+% the appendix:
+% there are several sections, that don't really fit into the main chapters
+%
+%\part*{\addcontentsline{toc}{part}{Appendices}Appendices}
+%\appendix
+
+% reset page style to fancy
+%\pagestyle{fancy}
+%\fancypagestyle{plain}
+
+% \input{appendix}
+
+
+\end{document}

@@ -1,0 +1,12 @@
+
+% Their are two abstracts. One that is published externally from your
+% dissertation, and one that is internal. Of course, the text of the
+% abstract will be the same. So, we define a macro to hold the body of our
+% abstract.
+
+% at 345 words
+\newcommand{\myabstract}{
+With the growing popularity of Android smart phones, it is increasingly important to ensure the security of sensitive user information. A recent study found that approximately 26\% of Android applications in Google Play can access personal data, such as contacts and email, and 42 percent, GPS location data~\cite{Higgins}. While Android is known for giving the user control, it falls short when it comes to enabling and disabling the permissions on applications. Currently, the user is given the option to either give the application every permission it desires or not install it.  While researchers have proposed approaches for allowing users to modify the permissions granted to applications, it is unclear how removing permissions would affect the behavior of current applications. At present, developers expect all requested permissions to be granted.
+
+This study takes the first step towards quantifying the impact of enabling users to statically remove permissions on Android applications post-installation. An automated testing system, \toolname, was developed for evaluating the effect of removing individual permissions from applications.  Using \toolname, the effects of removing common permission were evaluated using sets of randomly selected applications that request them.  It was determined that approximately 5.8\% of the 700 applications tested crash after a permission is removed and that the removal of certain permissions is handled more gracefully than others.  The results of this study will help users make more informed decisions when removing permissions and help developers make their applications more robust to permission revocation.
+}

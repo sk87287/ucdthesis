@@ -1,0 +1,88 @@
+% Declarations for Front Matter
+
+% MS Thesis = 0, Phd Dissertation = 1
+\isdissertation{0}
+
+% electronic submission? Paper only = 0, Electronic = 1
+\iselectronic{0}
+
+\title{Quantifying the Effects of Permission Removal from Android Applications}
+\author{Kristen M. Kennedy}
+
+\degreemonth{December}
+\degreeyear{2013}
+\degree{Master of Science}
+
+%\committee{Chen-Nee Chuah \Hao Chen and \Mathew Bishop}
+\chaira{Chen-Nee Chuah}
+\chairb{Hao Chen}
+\othermembers{Mathew Bishop\\}
+\numberofmembers{3}
+
+\prevdegrees{B.E,M.E (Catholic University of America)}
+
+\field{Electical and Computer Engineering}
+\campus{Davis}
+
+
+% add the abstract here
+\input{abstract}
+
+
+% Here is the first, external, abstract.
+%\begin{abstract}
+%	\myabstract
+%	\abstractsignature
+%\end{abstract}
+
+\begin{frontmatter}
+\maketitle
+
+% A copyright page is optional. If you have one, it must immediately
+% follow the title page. For more information about the copyright page
+% see the UCD's Office of Graduate Studies web site.
+\copyrightpage
+
+
+% Here is the second, internal, abstract.
+% Update: Melissa Danforth 2006
+% Inline abstract is now part of front matter according to coordinator
+\newpage
+   \begin{inlineabstract}
+	\addcontentsline{toc}{chapter}{\abstractname}
+	\begin{small}
+	\myabstract
+	\end{small}
+		
+	% DEB 2010/07/09
+	% don't really need the signature for the in-line abstract
+	% \abstractsignature
+   \end{inlineabstract}
+\begin{acknowledgments}
+xxxxxxx
+\end{acknowledgments}    
+
+% dedication 
+%\begin{dedication}
+%\null\vfil
+%{\large
+%\begin{center}
+%xxxx
+%\end{center}}
+%\vfil\null
+%\end{dedication}
+
+
+
+\tableofcontents
+\listoffigures
+\begingroup
+\let\clearpage\relax
+\listoftables
+\endgroup
+%\listoffigures
+%\listoftables
+
+
+
+\end{frontmatter}
