@@ -4,7 +4,7 @@
 % modified by Dylan Beaudette, 2006,2010
 % minor edits and source uploaded by Alex Mandel, 2010
 % Source code available at http://github.com/wildintellect/ucdthesis
-\documentclass[12pt,notableslist]{ucdthesis}
+\documentclass[11pt,notableslist]{ucdthesis}
 %\documentclass[10pt,twoside,final]{ucdthesis}
 % \documentclass[10pt,twoside,draft]{ucdthesis}
 % \documentclass[10pt,oneside,final]{ucdthesis}
@@ -15,7 +15,7 @@
 
 % when we are giving people drafts, use more of the page:
 %\usepackage[letterpaper,left=0.75in,right=0.75in,top=1.25in,bottom=0.5in]{geometry}
-%\usepackage[paperwidth=8.5in,paperheight=11.0in,left=1.0in,right=01.0in,includefoot]{geometry}
+\usepackage[paperwidth=8.5in,paperheight=11.0in,left=1.0in,right=01.0in,includefoot]{geometry}
 % need this for the \foreach command
 \usepackage{tikz}
 
@@ -75,6 +75,8 @@
 
  % PDF links --- > breaks with some bibliography entries
 \usepackage{hyperref}
+% used for turning off floating
+\usepackage{placeins}
 
 % nice looking, parenthetical references
 \usepackage[backend=biber, maxnames=5]{biblatex}
